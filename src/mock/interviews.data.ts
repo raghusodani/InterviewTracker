@@ -1,0 +1,76 @@
+import type { Interview } from "../types/interview.types";
+
+export const interviewsMock: Interview[] = [
+  {
+    companyName: "Uber",
+    currentStatus: 1,
+    lastUpdatedDate: "2025-10-15",
+    nextSteps: "Prepare for OA, focus on arrays and strings",
+  },
+  {
+    companyName: "Google",
+    currentStatus: 3,
+    lastUpdatedDate: "2025-12-20",
+    nextSteps: "Review system design concepts for round 3",
+  },
+  {
+    companyName: "Meta",
+    currentStatus: 2,
+    lastUpdatedDate: "2025-11-05",
+    nextSteps: "Practice graphs and trees for phone screen",
+  },
+  {
+    companyName: "Amazon",
+    currentStatus: 5,
+    lastUpdatedDate: "2026-01-01",
+    nextSteps: "Wait for final offer decision, negotiate salary",
+  },
+  {
+    companyName: "Netflix",
+    currentStatus: 1,
+    lastUpdatedDate: "2025-10-28",
+    nextSteps: "Submit application and update resume",
+  },
+  {
+    companyName: "Microsoft",
+    currentStatus: 4,
+    lastUpdatedDate: "2025-12-15",
+    nextSteps: "Prepare for behavioral interview with hiring manager",
+  },
+  {
+    companyName: "Airbnb",
+    currentStatus: 2,
+    lastUpdatedDate: "2025-11-12",
+    nextSteps: "Complete take-home assignment on frontend",
+  },
+  {
+    companyName: "Stripe",
+    currentStatus: 3,
+    lastUpdatedDate: "2025-12-01",
+    nextSteps: "Deep dive into database design and SQL",
+  },
+  {
+    companyName: "DoorDash",
+    currentStatus: 1,
+    lastUpdatedDate: "2025-10-30",
+    nextSteps: "Brush up on DP problems",
+  },
+  {
+    companyName: "LinkedIn",
+    currentStatus: 5,
+    lastUpdatedDate: "2026-01-02",
+    nextSteps: "Review offer letter details",
+  },
+  {
+    companyName: "Databricks",
+    currentStatus: 2,
+    lastUpdatedDate: "2025-11-20",
+    nextSteps: "Schedule technical phone interview",
+  },
+  {
+    companyName: "Snowflake",
+    currentStatus: 4,
+    lastUpdatedDate: "2025-12-10",
+    nextSteps: "Onsite interview preparation: System Design",
+  },
+];
